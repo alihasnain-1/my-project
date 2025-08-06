@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+    
+
+.head{
+      text-align: center;
+    margin: 0px;
+    padding: 16px 0px;
+    left: 0px;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgb(224, 191, 112);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 22.5px;
+}
+.head button {
+    display: inline-block;
+    font-size: 25px;
+    padding: 0 15px;
+    background-color: black;
+    color: white;
+    margin: 0 10px;
+}
+.head h1{
+    display: inline-block;
+    font-weight: 400;
+}
+.mid-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.right-side{
+    display: flex;
+    align-items: center;
+}
+.right-side img{
+    padding: 0 5px;
+}
+.left-side a img{
+    width: 25px;
+}
+.left-side a{
+    padding: 5px;
+}
+.home ul{
+    display: flex;
+    justify-content: center;
+}
+.home li{
+    list-style: none;
+}
+.home li a{
+    text-decoration: none;
+    color: inherit;
+    padding: 15px;
+}
+.baner-img{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+.box-card{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.box-items{
+    border: 2px solid black;
+    padding:5px 2rem;
+}
+.box-items h4{
+    font-size: 1.3rem;
+}
+.images-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+.mid-side{
+    padding-left: 20%;
+}
+.selection{
+    padding: 40px 0;
+}
+.selection-card h1{
+    padding: 10px 0;
+    text-align: center;
+}
+.selection-card p{
+    text-align: center;
+}
+.selection-img a img{
+    width: 300px;
+    height: 300px;
+}
+.pagination-container .swiper-pagination-bullet{
+    width: 20px;
+    border-radius: 0;
+}
+.pagination-container{
+    position: relative;
+    padding-top: 50px;
+}
+.swiper-pagination {
+    bottom: 0 important; 
+    top:50%;
+    transform: translateY(-50%);
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+.swiper-button-prev,.swiper-button-next {
+    background-color: rgb(230, 218, 218);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.price{
+    display: flex;
+    justify-content: center;
+}
+.price-card{
+    padding-right: 5px;
+    color: rgb(240, 49, 49);
+}
+.price-items{
+    padding-right: 5px;
+    text-decoration: line-through;
+}
+.selector-button button{
+    padding: 12px 20px;
+    background-color: rgb(5,129,56);
+    color: white;
+    border: 2px solid rgb(5,129,56);
+    width: 100%;
+    font-size: 20px;
+}
+.selector-button{
+    margin-top: 5px;
+    
+    text-align: center;
+}
+.selection-img{
+    padding-bottom: 15px;
+}
+.about-card{
+    display: flex;
+    justify-content: center;
+}
+.about-items a img{
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+}
+.collection-card a img{
+    width:100%;
+    height: 100%;
+}
+.collection-box{
+    padding-top: 40px;
+}
+.star{
+    display: flex;
+}
+.customer-box{
+    padding-top: 40px;
+}
+.customer-card{
+    display: flex;
+}
+.customer-section{
+    text-align: center;
+}
+.customer-items{
+    padding: 25px 30px;
+    background-color: rgb(249,249,249);
+}
+.customer-icon{
+flex: 1;
+    padding: 0 15px;
+}
+.customer-section h1{
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.app-card{
+    display: flex;
+    padding-bottom: 30px;
+}
+.app-items{
+    text-align: center;
+    flex: 1;
+}
+.app-items a img{
+    width:200px;
+    height: 200px;
+}
+.customer-para{
+    height: 150px;
+    padding: 15px;
+}
+.customer-name{
+    margin-bottom: 20px;
+}
+.promis-card{
+    display: flex;
+}
+.promis-items{
+    text-align: center;
+    flex: 1;
+    padding: 0 20px;
+}
+.promis-para{
+    margin-top:15px;
+}
+.promis-para p{
+    margin-top: 5px;
+}
+.promis-tital{
+    text-align: center;
+}
+.promis{
+    margin-top: 20px;
+}
